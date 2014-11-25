@@ -1,7 +1,5 @@
 package com.citytechinc.aem.hermes;
 
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class HelloApp {
 
@@ -9,6 +7,7 @@ public class HelloApp {
 
     public void init(){
         helloService.sayHello();
+
     }
 
     public HelloService getHelloService() {
